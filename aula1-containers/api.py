@@ -38,6 +38,12 @@ def raiz():
     return {"status": "ok", "servico": "api-de-sentimento", "aula": 1}
 
 
+@app.get("/sobre")
+def sobre():
+    """Identifica o aluno responsável por este deploy."""
+    return {"aluno": "Murilo Neves dos Santos", "disciplina": "Infraestrutura"}
+
+
 @app.post("/prediz", response_model=Saida)
 def prediz(entrada: Entrada):
     """Classifica o sentimento de uma frase em português."""
