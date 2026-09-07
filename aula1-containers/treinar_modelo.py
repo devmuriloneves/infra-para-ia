@@ -83,6 +83,12 @@ FRASES_POSITIVAS = [
     "as explicações foram claras e objetivas",
     "produto durável e bem construído",
     "fiquei muito contente com o atendimento",
+    "essa API é rápida e confiável",
+    "o deploy funcionou de primeira",
+    "gostei muito de aprender sobre containers",
+    "a infraestrutura ficou muito bem organizada",
+    "o professor deu um exemplo prático excelente",
+    "consegui resolver tudo sem dificuldade",
 ]
 
 FRASES_NEGATIVAS = [
@@ -146,6 +152,12 @@ FRASES_NEGATIVAS = [
     "as explicações foram vagas e confusas",
     "produto frágil e mal construído",
     "fiquei irritado com o atendimento",
+    "essa API é lenta e trava direto",
+    "o deploy falhou várias vezes",
+    "achei muito difícil aprender sobre containers",
+    "a infraestrutura ficou bagunçada",
+    "o exemplo prático ficou confuso",
+    "não consegui resolver nada sozinho",
 ]
 
 textos = FRASES_POSITIVAS + FRASES_NEGATIVAS
