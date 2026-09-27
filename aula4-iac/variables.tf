@@ -42,3 +42,15 @@ variable "memoria" {
   type        = number
   default     = 1
 }
+
+variable "node_vm_size" {
+  description = "Tamanho da VM do nó do AKS. Ajuste conforme o check_azure.py."
+  type        = string
+  default     = "Standard_B2as_v2"
+}
+
+variable "node_count" {
+  description = "Quantidade de nós do cluster AKS."
+  type        = number
+  default     = 1
+}
