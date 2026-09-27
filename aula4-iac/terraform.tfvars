@@ -4,7 +4,10 @@
 
 # Troque por um apelido em minúsculas, sem espaço, de 3 a 12 caracteres.
 # Por exemplo: anaejoao
-dupla = "SUADUPLA"
+dupla = "muriloneves"
 
 # A prática começa em v2 e troca para v3 na etapa 3.
 imagem_tag = "v2"
+
+# Região permitida pela política da subscription de estudante.
+location = "northcentralus"
